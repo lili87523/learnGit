@@ -11,7 +11,7 @@
 Issues:
 It is not easy to connect the remote with local.
 Recommend to use the SSH to make sure it is safe to surf on internet.
-1.make sure your own computer has a isa key pair, it should be in your ~/.ssh
+1.make sure your own computer has an isa key pair, it should be in your ~/.ssh
  if you do not have one, then use command: "ssh-keygen" to create a new pair;
  then "vim ~/.ssh/id_rsa.pub" to copy the public key; then go to your remote github -> setting -> SSH AND GPG keys -> SSH keys, do the paste. Then you connect your local key with your computer key;
 2.just step 1 is not enough. We need to set your local .git/config file to let git know the correct url: vim .git/config; then change the url part: url=git@github.com:lili87523/learnGit.git 
